@@ -14,7 +14,7 @@ body {
 /* ================= NAVBAR ================= */
 
 nav {
-    position: relative;
+    position: fixed;
 
     display: flex;
     justify-content: center;
@@ -35,7 +35,6 @@ div a {
     font-family: 'Segoe UI', sans-serif;
     font-weight: 600;
     background-color: transparent;
-
     transition: 0.25s ease;
 }
 
@@ -63,7 +62,7 @@ nav h2:hover {
 /* Contactarme */
 
 div a {
-    position: absolute;
+    position: fixed;
     right: 25px;
     top: 16px;
 }
@@ -88,31 +87,18 @@ div a {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
+    padding-top: 350px;
 
     text-align: center;
 }
-/* Título */
-
-#imagen h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-
-/* Descripción */
-
-#imagen p {
-    max-width: 600px;
-
+#imagen p{
+    padding-top: 20px;
+    width: 600px;
     font-size: 20px;
-    line-height: 1.6;
-
-    color: #d6dbe0;
-    font-weight: 500;
 }
-
 /* ================= BUSCADOR ================= */
 
 #imagen form {

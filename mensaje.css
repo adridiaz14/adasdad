@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#mensaje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.65) 18%,
+            rgba(0, 0, 0, 0.4) 45%,
+            rgba(0, 0, 0, 0.4) 100%
+        ),
+        url("IMAGEN.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+#caja {
+    background-color: blue;
+    padding: 40px;
+    border-radius: 50px;
+    width: 450px;
+    height: 435px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#caja h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#caja input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+#caja button {
+    display: block;
+    width: 50%;
+    padding: 15px;
+    margin: 10px auto 0;
+    background-color: transparent;
+    color: rgb(218, 206, 206);
+    border: 1px solid rgb(218, 206, 206);
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+#caja button:hover {
+    color: white;
+    transform: scale(1.08);
+}
+#creaciones {
+    min-height: 100vh;
+    padding: 200px;
+
+    background-color: #06182a;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.65) 18%,
+            rgba(0, 0, 0, 0.4) 45%,
+            rgba(0, 0, 0, 0.4) 100%
+        ),
+        url("IMAGEN.jpg");
+
+}
+
+#creaciones h1 {
+    color: white;
+    margin-bottom: 40px;
+    padding: 1px;
+}
+
+#caja-creacion {
+    width: 400px;
+    min-height: 250px;
+
+    background-color: #1e1e1e;
+    border-radius: 50px;
+    padding: 40px;
+
+    color: white;
+}
